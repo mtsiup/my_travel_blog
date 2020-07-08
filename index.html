@@ -116,9 +116,9 @@
             <b>Душевне і фізичне зцілення: чому варто відправитися в гори.</b><br><br>Люди діляться на два табори: ті, хто обожнює пригоди і туристичні походи і ті, хто віддає перевагу комфортному відпочинку, з усіма умовами, all inclusive <a href="">Read more…</a></p>       
         </div>
        
-        <form action="index_posts.html" method="POST">
+        <!-- <form action="index_posts.html" method="POST">
             <input class = "button-load-more" type="submit" value="LOAD MORE">
-        </form>
+        </form> -->
         <hr>
         
         <h2>Корисні посилання</h2>
@@ -134,22 +134,27 @@
         </section>
         <hr>
         <h2>Зв'язатись зі мною</h2>
-    
+        <!-- <div class = "message-me">
             <form class="contact-form" action="https://formspree.io/xzbjvkoq" method="POST">
-                <div class = "message-me">
-                    <p>Your name:</p><input placeholder="Enter your name" type="text" name="name" id="name" required="">
-                </div>
-                <div class = "message-me">
-                    <p>Your e-mail:</p><input placeholder="Enter your e-mail" type="email" name="e_mail" id="e_mail" required="">
-                </div> 
-                <div class = "message-me">
-                    <p>Message:</p><input placeholder="Type your message" type="text" name="message" id="message" required="">
-                </div>
-                <div class = "message-me">
-                    <input id = "send-button" name="submit" type="submit" value="Send">
-                </div>
+                <p>Your name:</p><input placeholder="Enter your name" type="text" name="name"  required="">
+                <p>Your e-mail:</p><input placeholder="Enter your e-mail" type="email" name="e_mail"  required="">
+                <p>Message:</p><input placeholder="Type your message" type="text" name="message" required="">
+                
+                <input id = "send-button" name="submit" type="submit" value="Send">
             </form>
+        </div> -->
+
         
+<div class="contact-border">
+        <section id="contact-form">  
+            <form id="contact" action="https://formspree.io/xzbjvkoq" method="POST" name="contact">
+              <label><span>Your Name</span><input name="name" type="text" placeholder="Enter your name" required=""/></label>
+              <label><span>Your Email</span><input name="email" type="email" placeholder="Enter your e-mail" required=""/></label>
+              <label><span>Message</span><textarea name="message" placeholder="Type your message" required=""></textarea></label>
+              <input name="submit" type="submit" value="Send"/>
+            </form>  
+          </section>
+</div>
         <hr> 
         <script src="js/index.js"></script>   
     </main>
