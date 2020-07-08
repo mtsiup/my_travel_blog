@@ -40,7 +40,7 @@ text-align: center;
     text-decoration: none;
     color: var(--main-color);
     padding: 5px;
-    border: 2px solid transparent;    
+    border: 3px solid transparent;    
 }
 
 .header-menu li a:hover {
@@ -85,3 +85,303 @@ text-align: center;
 .intro-text {
 font-family: 'Open Sans', sans-serif;
 }
+
+
+.card img{
+    display: block;
+    width: 100%;
+}
+
+@media (min-width:650px){
+ .main-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+ }
+}
+
+.card h3{
+    font-size: 40px;
+    margin: 5px;
+    text-align: center;
+    color: var(--main-color);
+}
+
+h2{
+    font-size: 60px;
+    margin: 10px;
+    text-align: center;   
+}
+
+
+/* SLIDER */
+.slider {
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+  }
+
+  .slider__wrapper {
+    height: 400px;
+    display: flex;
+    transition: transform 0.6s ease;
+  }
+
+  .slider__item {
+    background-color: rgba(248, 242, 242, 0.952);
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    border: 3px solid grey; /* grey рамка */
+    border-radius: 9px; /* Радіус заокруглення */
+    margin: 8px; /*відступ між блоками*/
+  }
+
+  .slider__control {
+    position: absolute;
+    top: 50%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    color: #fff;
+    text-align: center;
+    opacity: 0.5;
+    height: 50px;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, .5);
+  }
+
+  .slider__control_show {
+    display: flex;
+  }
+
+  .slider__control:hover,
+  .slider__control:focus {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    opacity: .9;
+  }
+
+  .slider__control_left {
+    left: 0;
+  }
+
+  .slider__control_right {
+    right: 0;
+  }
+
+  .slider__control::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: transparent no-repeat center center;
+    background-size: 100% 100%;
+  }
+
+  .slider__control_left::before {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+  }
+
+  .slider__control_right::before {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+  }
+
+  .slider__item_little .slider__item_little_two .slider__item_little_three>div {
+    height: 250px;
+    line-height: 250px;
+    font-size: 25px;
+    text-align: center;
+    color: blanchedalmond;
+  }
+
+  .slider__item_little{
+    background-image: url(../img/tatry_mountains.jpg);
+    min-height: 250px; 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 10px;
+    color: white;
+  }
+
+  .slider__item_little_two{
+    background-image: url(../img/chornogora_karpaty.jpg);
+    min-height: 250px; 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 10px;
+    color: white;
+  }
+
+  .slider__item_little_three{
+    background-image: url(../img/turkey_likiyka.jpg);
+    min-height: 250px; 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 10px;
+    color: white;
+  }
+
+  .slider__item_little_four{
+    background-image: url(../img/pikyi_outumn.jpg);
+    min-height: 250px; 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 10px;
+    color: white;
+  }
+
+  .slider__item_little_five{
+    background-image: url(../img/turkey_likiyka.jpg);
+    min-height: 250px; 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 10px;
+    color: white;
+  }
+
+  .slider__item_little_six{
+    background-image: url(../img/turkey_likiyka.jpg);
+    min-height: 250px; 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 10px;
+    color: white;
+  }
+
+  .slider__item_little_seven{
+    background-image: url(../img/turkey_likiyka.jpg);
+    min-height: 250px; 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 10px;
+    color: white;
+  }
+     
+  /* SLIDER end */
+
+  .content-link{
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+    flex-direction: row;
+    font-family: 'Shadows', cursive;
+    margin-bottom: 20px;
+  }
+
+  .content-links-info img{
+    display: block;
+    width: 100%;
+  }
+
+  .content-link p{
+    margin: 10 px;
+  }
+
+  .content-links-img{
+    float: left; 
+    margin-right: 20px; 
+  }
+
+  .button-load-more{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin: 0 auto;
+    padding: 14px 40px;
+    border-radius: 8px;
+    font-size: 24px;
+    color: black;
+    border: 2px solid #575857;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.5s;
+  }
+
+  .button-load-more:hover {
+    background-color: #575857; 
+    color: white;
+}
+
+.useful-links{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:right;
+    width: 80%;
+    border:1px solid #383838;  
+    border-radius: 12px;  
+    background-color: rgb(195, 219, 247);
+    margin: 0;
+}
+
+/*.message-me p{
+    font-size: 30px; 
+    margin-right: 10px;  
+}}*/
+
+ .message-me input{
+    width: 60%;
+    height: 60px;
+    font-size: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    border-radius: 6px; 
+    background-clip: padding-box;
+
+
+.message-me{
+    display: flex;
+    align-items: baseline;
+    justify-content: left;
+    flex-direction: row;   
+}
+
+.message-me input[type=submit]{
+    width: 30%;
+    height: 60px;
+    background-color:rgb(143, 196, 226);
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.5s;
+  }
