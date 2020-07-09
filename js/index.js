@@ -88,3 +88,28 @@
     let slider = multiItemSlider('.slider')
 
 
+
+
+
+
+
+    window.onload = function(){
+      window.setInterval(function(){
+           var now = new Date();
+            var clock = document.getElementById("clock");
+          clock.innerHTML = now.toLocaleTimeString();
+      }, 1000);
+     };
+
+
+
+
+// var slides = document.querySelectorAll('#slides .slide');
+// var currentSlide = 0;
+// var slideInterval = setInterval(nextSlide,2000);
+ 
+// function nextSlide(){
+//     slides[currentSlide].className = 'slide';
+// 	currentSlide = (currentSlide+1)%slides.length;
+// 	slides[currentSlide].className = 'slide showing';
+// };
