@@ -52,6 +52,7 @@ text-align: center;
 
 .header-menu li a:hover {
     border: 3px solid var(--main-color);
+    background-color:  rgb(10, 97, 168);
 }
 
 @media (min-width: 650px) {
@@ -320,29 +321,6 @@ h2{
      
   /* SLIDER end */
 
-  .content-link{
-    display: flex;
-    align-items: baseline;
-    justify-content: flex-end;
-    flex-direction: row;
-    font-family: 'Shadows', cursive;
-    margin-bottom: 20px;
-  }
-
-  .content-links-info img{
-    display: block;
-    width: 100%;
-  }
-
-  .content-link p{
-    margin: 10 px;
-  }
-
-  .content-links-img{
-    float: left; 
-    margin-right: 20px; 
-  }
-
   /* .button-load-more{
     display:flex;
     justify-content:center;
@@ -410,12 +388,12 @@ h2{
   }
   input[type="submit"], button {
     border-radius: 8px;
-    background: #798385;
+    background: rgb(10, 97, 168);
     color:white;
     font-size: x-large;
   }
   input[type="submit"]:hover, button:hover {
-    background: #7099a0fa;
+    background: #dce8ebfa;
   }
   @media screen and (min-width: 30em) {
       label > span {
@@ -439,7 +417,7 @@ h2{
   }
   @media screen and (min-width: 48em) {
     #contact-form {
-      text-align: justify;
+      text-align: center;
       line-height: 0;
     }
     #contact-form:after {
@@ -458,19 +436,19 @@ h2{
    
   }
 
-  .contact-border{
-    width: 70%;
-    border:1px solid #383838;  
+  /* .contact-border{
+    width: 100%;
+    border:1px solid #495181;  
     border-radius: 12px;  
-    background-color: rgb(195, 219, 247); 
+    background-color: rgb(235, 239, 245); 
     margin-top: 20px;
     margin: 0 auto; 
     text-align: center;
-  }
+  } */
 
   .networks-links{
     display: flex;
-    align-items: baseline;
+    /* align-items: baseline; */
     justify-content: center;
     flex-direction: row;   
     margin-top: 30px;
@@ -480,15 +458,16 @@ h2{
 
   .networks-links img{
     width: 40%; 
+    text-align: center;
   }
 
   footer{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
 
   #clock{
-    border: 10px solid rgb(10, 97, 168);
+    border: 10px double rgb(10, 97, 168);
     border-radius: 8px;
     color: black;
     font-weight: bold;
