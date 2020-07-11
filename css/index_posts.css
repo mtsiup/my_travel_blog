@@ -49,7 +49,7 @@ text-align: center;
 }
 
 .header-menu li a:hover {
-    border: 3px solid var(--main-color);
+    border: 3px groove var(--main-color);
     /* background-color:  rgb(10, 97, 168); */
 }
 
@@ -231,4 +231,21 @@ h2{
     font-weight: bold;
     font-size: 25px;
     margin-right: 0;
+}
+
+
+.content img{
+  width: 100%;
+  margin: 10px;
+}
+
+.card-body img{
+  width: 100%;
+  margin: 10px;
+}
+
+.content h3{
+  margin: 20px;
+  text-align: center;
+  font-family: 'Shadows', cursive;
 }

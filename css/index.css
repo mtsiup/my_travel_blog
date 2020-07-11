@@ -107,7 +107,7 @@ font-family: 'Open Sans', sans-serif;
 } */
 
 .card{
-  border: 1px solid black;
+  border: 3px outset rgb(139, 134, 134);
   border-radius: 8px;
   /* background-color: rgb(219, 222, 223); */
 }
@@ -467,8 +467,8 @@ h2{
 
 
   #clock{
-    border: 10px double rgb(10, 97, 168);
-    border-radius: 8px;
+    border: 10px inset rgb(139, 134, 134);
+    border-radius: 15px;
     color: black;
     font-weight: bold;
     font-size: 25px;
