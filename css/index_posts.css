@@ -50,7 +50,6 @@ text-align: center;
 
 .header-menu li a:hover {
     border: 3px groove var(--main-color);
-    /* background-color:  rgb(10, 97, 168); */
 }
 
 @media (min-width: 650px) {
@@ -96,14 +95,6 @@ text-align: center;
  }
 }
 
-.card h3{
-    font-size: 30px;
-    margin: 5px;
-    text-align: center;
-    color: var(--main-color);
-    font-family: 'Bree Serif', serif;
-}
-
 h2{
     font-size: 40px;
     margin: 10px;
@@ -112,19 +103,17 @@ h2{
     font-family: 'Hammersmith One', sans-serif;
 }
 
-
-
-
-
-  #contact-form {
+#contact-form {
     max-width: 1208px;
     max-width: 75.5rem;
     margin: 0 auto;
-  }
-  #contact, label, input[name="submit"] {
+}
+  
+#contact, label, input[name="submit"] {
     position: relative;
   }
-  label > span, input, textarea, button {
+ 
+ label > span, input, textarea, button {
     box-sizing: border-box;
   }
   label {
@@ -138,13 +127,11 @@ h2{
   input, textarea, button {
     width: 100%;
     padding: 0.5em;
-    /* border: none; */
     font: 300 100%/1.2 Ubuntu, sans-serif;
   }
   input[type="text"], input[type="email"], textarea {
     margin: 0 0 1em;
     margin-top: 20px;
-    /* border: 1px solid #ccc; */
     outline: none;
   }
   input.invalid, textarea.invalid {
@@ -203,10 +190,8 @@ h2{
    
   }
 
-  
   .networks-links{
     display: flex;
-    /* align-items: baseline; */
     justify-content: center;
     flex-direction: row;   
     margin-top: 30px;
@@ -222,17 +207,6 @@ h2{
   footer{
     margin-bottom: 10px;
   }
-
-
-  #clock{
-    /* border: 10px double rgb(10, 97, 168); */
-    border-radius: 8px;
-    color: black;
-    font-weight: bold;
-    font-size: 25px;
-    margin-right: 0;
-}
-
 
 .content img{
   width: 100%;

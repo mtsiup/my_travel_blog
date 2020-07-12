@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Hammersmith+One&display=swap");
 
 
-
 :root {
     --main-color: black;
     --accent-color: white;
@@ -52,7 +51,6 @@ text-align: center;
 
 .header-menu li a:hover {
     border: 3px solid var(--main-color);
-    /* background-color:  rgb(141, 191, 231); */
 }
 
 @media (min-width: 650px) {
@@ -72,19 +70,6 @@ text-align: center;
 
 }
 
-/* .main-img {
-    background-image: url(../img/head-picture-panorama.jpg);
-    background-size: cover;
-    background-position: top;
-    min-height: 300px;
-    display: flex;
-    align-items: baseline;
-    justify-content: flex-end;
-    flex-direction: column;
-    font-size: x-large;
-    font-family: 'Shadows', cursive;
-    } */
-
 .main-img h1 {
     color: var(--accent-color);
     margin: 3px 10px;
@@ -102,14 +87,10 @@ text-align: center;
   margin: 8px;
   font-size: large;
 }
-  /* .intro-text {
-font-family: 'Open Sans', sans-serif;
-} */
 
 .card{
   border: 3px outset rgb(139, 134, 134);
   border-radius: 8px;
-  /* background-color: rgb(219, 222, 223); */
 }
 
 .card img{
@@ -159,9 +140,9 @@ h2{
     background-color: rgba(248, 242, 242, 0.952);
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
-    border: 3px solid grey; /* grey рамка */
-    border-radius: 9px; /* Радіус заокруглення */
-    margin: 8px; /*відступ між блоками*/
+    border: 3px solid grey;
+    border-radius: 9px; 
+    margin: 8px; 
   }
 
   .slider__item h4{
@@ -317,28 +298,8 @@ h2{
     flex-direction: column;
     font-size: 10px;
     color: white;
-  }
-     
-  /* SLIDER end */
+  }      /* SLIDER end */
 
-  /* .button-load-more{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    margin: 0 auto;
-    padding: 14px 40px;
-    border-radius: 8px;
-    font-size: 24px;
-    color: black;
-    border: 2px solid #575857;
-    -webkit-transition-duration: 0.4s; 
-    transition-duration: 0.5s;
-  }
-
-  .button-load-more:hover {
-    background-color: #575857; 
-    color: white;
-} */
 
 .useful-links{
     display: flex;
@@ -346,8 +307,6 @@ h2{
     justify-content: space-around;
     flex-direction: row;
 }
-
-
 
   #contact-form {
     max-width: 1208px;
@@ -371,13 +330,11 @@ h2{
   input, textarea, button {
     width: 100%;
     padding: 0.5em;
-    /* border: none; */
     font: 300 100%/1.2 Ubuntu, sans-serif;
   }
   input[type="text"], input[type="email"], textarea {
     margin: 0 0 1em;
     margin-top: 20px;
-    /* border: 1px solid #ccc; */
     outline: none;
   }
   input.invalid, textarea.invalid {
@@ -433,22 +390,11 @@ h2{
       text-align: left;
       line-height: 1.5;
     }
-   
   }
 
-  /* .contact-border{
-    width: 100%;
-    border:1px solid #495181;  
-    border-radius: 12px;  
-    background-color: rgb(235, 239, 245); 
-    margin-top: 20px;
-    margin: 0 auto; 
-    text-align: center;
-  } */
 
   .networks-links{
     display: flex;
-    /* align-items: baseline; */
     justify-content: center;
     flex-direction: row;   
     margin-top: 30px;
@@ -465,7 +411,6 @@ h2{
     margin-bottom: 10px;
   }
 
-
   #clock{
     border: 10px inset rgb(139, 134, 134);
     border-radius: 15px;
@@ -474,3 +419,4 @@ h2{
     font-size: 25px;
     margin-right: 0;
 }
+
