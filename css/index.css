@@ -67,7 +67,6 @@ text-align: center;
     .header-menu {
         flex: 1;
     }
-
 }
 
 .main-img h1 {
@@ -391,7 +390,6 @@ h2{
       line-height: 1.5;
     }
   }
-
 
   .networks-links{
     display: flex;
