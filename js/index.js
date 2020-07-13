@@ -1,5 +1,5 @@
 'use strict'; //SLIDER
-var multiItemSlider = (function () {
+let multiItemSlider = (function () {
   return function (selector, config) {
     let
       _mainElement = document.querySelector(selector), //  main block element
@@ -91,8 +91,8 @@ let slider = multiItemSlider('.slider')
 // CLOCK
 window.onload = function () {
   window.setInterval(function () {
-    var now = new Date();
-    var clock = document.getElementById("clock");
+    let now = new Date();
+    let clock = document.getElementById("clock");
     clock.innerHTML = now.toLocaleTimeString();
   }, 1000);
 };
